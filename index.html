@@ -1,14 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project-1-GameDev</title>
-    <link rel="stylesheet" href="./styles/styles.css"
-</head>
-<body>
-    <h1>Project 1 GameDev</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beat The Odds</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Start Screen -->
+    <div id="start-screen" class="screen">
+      <h1>Beat The Odds</h1>
+      <p>A magical journey of fortune and misfortune!</p>
+      <button id="start-button">Start Game</button>
+    </div>
 
-    <script src="./js/script.js"></script>
-</body>
+    <!-- Game Screen -->
+    <div id="game-screen" class="screen hidden">
+      <div id="game-info">
+        <!-- Player Info -->
+        <div id="player-info">
+          <span>Lives:<span id="lives-count">3</span></span>
+        </div>
+        <!-- Dice Container -->
+        <div id="dice-container">
+          <div id="dice">?</div>
+          <!-- <div id="dice">?</div> -->
+          <button id="roll-button">Roll Dice</button>
+        </div>
+      </div>
+      <!-- Game Board  -->
+      <div id="game-board"></div>
+      <div id="message-display"></div>
+    </div>
+
+    <!-- Effect Display  -->
+    <div id="effect-display" class="hidden" >
+      <div id="effect-content">
+        <img src="" id="effect-gif" alt="Effect" />
+        <p id="effect-message"></p>
+      </div>
+    </div>
+
+    <!-- End Screen  -->
+<div id="end-screen" class="screen hidden">
+    <h1 id="end-title"></h1>
+    <p id="end-message"></p>
+    <button id="play-again-button">Play Again</button>
+</div>
+
+<script src="./js/Cell.js"></script>
+<script src="./js/Blessing.js"></script>
+<script src="./js/Curse.js"></script>
+<script src="./js/Board.js"></script>
+<script src="./js/main.js"></script>
+
+  </body>
 </html>
