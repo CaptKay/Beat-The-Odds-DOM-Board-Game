@@ -1,0 +1,191 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Screen Styles */
+.screen {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f8f1e5;
+    z-index: 10;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Start Screen */
+#start-screen {
+    background: linear-gradient(135deg, #6e48aa, #9d50bb);
+    color: white;
+}
+
+#start-screen h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Game Screen */
+#game-screen {
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#game-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#player-info {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Dice Styles */
+#dice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dice {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+/* Game Board */
+#game-board {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    border: 3px solid #333;
+    background-color: #f8f1e5;
+}
+
+.cell {
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.player-token {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-color: #ff6b6b; */
+    position: absolute;
+    z-index: 2;
+}
+
+.blessing-cell {
+    background-color: #a8e6cf;
+}
+
+.curse-cell {
+    background-color: #ff8b94;
+}
+
+/* Effect Display */
+#effect-display {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+
+}
+
+#effect-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 80%;
+}
+
+#effect-gif {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+#effect-message {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* End Screen */
+#end-screen {
+    background: linear-gradient(135deg, #135058, #F1F2B5);
+    color: white;
+}
+
+/* Buttons */
+button {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Message Display */
+#message-display {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    min-height: 30px;
+}
