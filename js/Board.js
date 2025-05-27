@@ -93,17 +93,17 @@ class Board {
           const newPosition = Math.min(player.position + move, 100);
           player.moveTo(newPosition, this);
         },
-        message: "Rainbow Bridge: Move forward 7 spaces!",
-        gifSrc: "../assets/images/blessing1.gif",
-        soundSrc: "../assets/sounds/blessing1.mp3",
+        message: "God Felix's Rainbow Bridge: Move forward 7 spaces!",
+        gifSrc: "../assets/images/blessing8.gif",
+        soundSrc: "../assets/sounds/blessing8.mp3",
       },
       {
         effect: (player, game) => {
           player.addLives(2);
         },
-        message: "Unicorn Blessing: Gain 2 lives!",
-        gifSrc: "../assets/images/blessing1.gif",
-        soundSrc: "../assets/sounds/blessing1.mp3",
+        message: "God Alex's Unicorn Blessing: Gain 2 lives!",
+        gifSrc: "../assets/images/blessing9.gif",
+        soundSrc: "../assets/sounds/blessing5.mp3",
       },
       {
         effect: (player, game) => {
@@ -111,17 +111,17 @@ class Board {
           const newPosition = Math.min(player.position + move, 100);
           player.moveTo(newPosition, this);
         },
-        message: "Teleportation Scroll: Move forward 15 spaces!",
-        gifSrc: "../assets/images/blessing1.gif",
-        soundSrc: "../assets/sounds/blessing1.mp3",
+        message: "Overlord D's Teleportation Scroll: Move forward 15 spaces!",
+        gifSrc: "../assets/images/blessing10.gif",
+        soundSrc: "../assets/sounds/blessing3.mp3",
       },
       {
         effect: (player, game) => {
           player.addLives(1);
         },
-        message: "Guardian Angel: Gain 1 life!",
-        gifSrc: "../assets/images/blessing1.gif",
-        soundSrc: "../assets/sounds/blessing1.mp3",
+        message: "Overlord J's Guardian Angel: Gain 1 life!",
+        gifSrc: "../assets/images/blessing11.gif",
+        soundSrc: "../assets/sounds/blessing7.mp3",
       },
       {
         effect: (player, game) => {
@@ -130,8 +130,8 @@ class Board {
           const newPosition = Math.min(player.position + move, 100);
           player.moveTo(newPosition, this);
         },
-        message: "Creator Kay's Divine Intervention: Move forward 20 spaces and Gain 3 more lives!",
-        gifSrc: "../assets/images/blessing1.gif",
+        message: "Kay's Divine Intervention: Move forward 20 spaces and Gain 3 more lives!",
+        gifSrc: "../assets/images/blessing12.gif",
         soundSrc: "../assets/sounds/blessing12.mp3",
       },
     ];
@@ -214,7 +214,7 @@ class Board {
         },
         message: "Goddes Thathsara's Evil Spell: Lose 1 life!",
         gifSrc: "../assets/images/curse7.gif",
-        soundSrc: "../assets/sounds/curse1.mp3",
+        soundSrc: "../assets/sounds/curse7.mp3",
       },
       {
         effect: (player, game) => {
@@ -222,17 +222,17 @@ class Board {
           const newPosition = Math.max(player.position - move, 1);
           player.moveTo(newPosition, this);
         },
-        message: "Slippery Slope: Move back 7 spaces!",
-        gifSrc: "../assets/images/curse1.gif",
-        soundSrc: "../assets/sounds/curse1.mp3",
+        message: "God Felix's Slippery Slope: Move back 7 spaces!",
+        gifSrc: "../assets/images/curse8.gif",
+        soundSrc: "../assets/sounds/curse8.mp3",
       },
       {
         effect: (player, game) => {
           player.loseLives(2);
         },
-        message: "Dragon's Breath: Lose 2 lives!",
-        gifSrc: "../assets/images/curse1.gif",
-        soundSrc: "../assets/sounds/curse1.mp3",
+        message: "God Alex's Dragon's Breath: Lose 2 lives!",
+        gifSrc: "../assets/images/curse9.gif",
+        soundSrc: "../assets/sounds/curse9.mp3",
       },
       {
         effect: (player, game) => {
@@ -240,24 +240,24 @@ class Board {
           const newPosition = Math.max(player.position - move, 1);
           player.moveTo(newPosition, this);
         },
-        message: "Cursed Teleport: Move back 15 spaces!",
-        gifSrc: "../assets/images/curse1.gif",
-        soundSrc: "../assets/sounds/curse1.mp3",
+        message: "Overlord D's Cursed Teleport: Move back 15 spaces!",
+        gifSrc: "../assets/images/curse10.gif",
+        soundSrc: "../assets/sounds/curse10.mp3",
       },
       {
         effect: (player, game) => {
           player.loseLives(1);
         },
-        message: "Dark Magic: Lose 1 life!",
-        gifSrc: "../assets/images/curse1.gif",
-        soundSrc: "../assets/sounds/curse1.mp3",
+        message: "Overlord J's Dark Magic: Lose 1 life!",
+        gifSrc: "../assets/images/curse11.gif",
+        soundSrc: "../assets/sounds/curse11.mp3",
       },
       {
         effect: (player, game) => {
-          player.loseLives(2);
+          // player.loseLives(2);
           player.moveTo(1, this);
         },
-        message: "Creator Kay's Ultimate Curse: Back to start!",
+        message: "Kay's Ultimate Curse: Back to start!",
         gifSrc: "../assets/images/curse12.gif",
         soundSrc: "../assets/sounds/curse12.mp3",
       },
