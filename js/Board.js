@@ -30,16 +30,16 @@ class Board {
           player.addLives(1);
         },
         message: "Goddes Lari's Divine Light: Gain 1 Life!",
-        gifSrc: "../assets/images/blessing1.gif",
-        soundSrc: "../assets/sounds/blessing1.mp3",
+        gifSrc: "./assets/images/blessing1.gif",
+        soundSrc: "./assets/sounds/blessing1.mp3",
       },
       {
         effect: (player, game) => {
           player.addLives(2);
         },
         message: "Goddes Joice's Angel's Touch: Gain 2 lives!",
-        gifSrc: "../assets/images/blessing2.gif",
-        soundSrc: "../assets/sounds/blessing2.mp3",
+        gifSrc: "./assets/images/blessing2.gif",
+        soundSrc: "./assets/sounds/blessing2.mp3",
       },
       {
         effect: (player, game) => {
@@ -48,8 +48,8 @@ class Board {
           player.moveTo(newPosition, this);
         },
         message: "God Tim's Swift Wind: Move forward 5 spaces!",
-        gifSrc: "../assets/images/blessin3.gif",
-        soundSrc: "../assets/sounds/blessing3.mp3",
+        gifSrc: "./assets/images/blessin3.gif",
+        soundSrc: "./assets/sounds/blessing3.mp3",
       },
       {
         effect: (player, game) => {
@@ -58,16 +58,16 @@ class Board {
           player.moveTo(newPosition, this);
         },
         message: "God Konstantinos' Eagle's Flight: Move forward 10 spaces!",
-        gifSrc: "../assets/images/blessing4.gif",
-        soundSrc: "../assets/sounds/blessing4.mp3",
+        gifSrc: "./assets/images/blessing4.gif",
+        soundSrc: "./assets/sounds/blessing4.mp3",
       },
       {
         effect: (player, game) => {
           player.addLives(1);
         },
         message: "Goddes Noemi's Healing Potion: Gain 1 life!",
-        gifSrc: "../assets/images/blessing5.gif",
-        soundSrc: "../assets/sounds/blessing5.mp3",
+        gifSrc: "./assets/images/blessing5.gif",
+        soundSrc: "./assets/sounds/blessing5.mp3",
       },
       {
         effect: (player, game) => {
@@ -76,16 +76,16 @@ class Board {
           player.moveTo(newPosition, this);
         },
         message: "Goddes Dani's Lucky Charm: Move forward 3 spaces!",
-        gifSrc: "../assets/images/blessing6.gif",
-        soundSrc: "../assets/sounds/blessing6.mp3",
+        gifSrc: "./assets/images/blessing6.gif",
+        soundSrc: "./assets/sounds/blessing6.mp3",
       },
       {
         effect: (player, game) => {
           player.addLives(1);
         },
         message: "Goddes Thathsara's Fairy Dust: Gain 1 life!",
-        gifSrc: "../assets/images/blessing7.gif",
-        soundSrc: "../assets/sounds/blessing7.mp3",
+        gifSrc: "./assets/images/blessing7.gif",
+        soundSrc: "./assets/sounds/blessing7.mp3",
       },
       {
         effect: (player, game) => {
@@ -94,16 +94,16 @@ class Board {
           player.moveTo(newPosition, this);
         },
         message: "God Felix's Rainbow Bridge: Move forward 7 spaces!",
-        gifSrc: "../assets/images/blessing8.gif",
-        soundSrc: "../assets/sounds/blessing8.mp3",
+        gifSrc: "./assets/images/blessing8.gif",
+        soundSrc: "./assets/sounds/blessing8.mp3",
       },
       {
         effect: (player, game) => {
           player.addLives(2);
         },
         message: "God Alex's Unicorn Blessing: Gain 2 lives!",
-        gifSrc: "../assets/images/blessing9.gif",
-        soundSrc: "../assets/sounds/blessing5.mp3",
+        gifSrc: "./assets/images/blessing9.gif",
+        soundSrc: "./assets/sounds/blessing5.mp3",
       },
       {
         effect: (player, game) => {
@@ -112,16 +112,16 @@ class Board {
           player.moveTo(newPosition, this);
         },
         message: "Overlord D's Teleportation Scroll: Move forward 15 spaces!",
-        gifSrc: "../assets/images/blessing10.gif",
-        soundSrc: "../assets/sounds/blessing3.mp3",
+        gifSrc: "./assets/images/blessing10.gif",
+        soundSrc: "./assets/sounds/blessing3.mp3",
       },
       {
         effect: (player, game) => {
           player.addLives(1);
         },
         message: "Overlord J's Guardian Angel: Gain 1 life!",
-        gifSrc: "../assets/images/blessing11.gif",
-        soundSrc: "../assets/sounds/blessing7.mp3",
+        gifSrc: "./assets/images/blessing11.gif",
+        soundSrc: "./assets/sounds/blessing7.mp3",
       },
       {
         effect: (player, game) => {
@@ -131,8 +131,8 @@ class Board {
           player.moveTo(newPosition, this);
         },
         message: "Kay's Divine Intervention: Move forward 20 spaces and Gain 3 more lives!",
-        gifSrc: "../assets/images/blessing12.gif",
-        soundSrc: "../assets/sounds/blessing12.mp3",
+        gifSrc: "./assets/images/blessing12.gif",
+        soundSrc: "./assets/sounds/blessing12.mp3",
       },
     ];
 
@@ -159,16 +159,16 @@ class Board {
           player.loseLives(1);
         },
         message: "Goddes Lari's Shadow Touch: Lose 1 life!",
-        gifSrc: "../assets/images/curse1.gif",
-        soundSrc: "../assets/sounds/curse1.mp3",
+        gifSrc: "./assets/images/curse1.gif",
+        soundSrc: "./assets/sounds/curse1.mp3",
       },
       {
         effect: (player, game) => {
           player.loseLives(2);
         },
         message: "Goddes Joice's Demon's Grasp: Lose 2 lives!",
-        gifSrc: "../assets/images/curse2.gif",
-        soundSrc: "../assets/sounds/curse2.mp3",
+        gifSrc: "./assets/images/curse2.gif",
+        soundSrc: "./assets/sounds/curse2.mp3",
       },
       {
         effect: (player, game) => {
@@ -177,8 +177,8 @@ class Board {
           player.moveTo(newPosition, this);
         },
         message: "God Tim's Quicksand: Move back 5 spaces!",
-        gifSrc: "../assets/images/curse3.gif",
-        soundSrc: "../assets/sounds/curse3.mp3",
+        gifSrc: "./assets/images/curse3.gif",
+        soundSrc: "./assets/sounds/curse3.mp3",
       },
       {
         effect: (player, game) => {
@@ -187,16 +187,16 @@ class Board {
           player.moveTo(newPosition, this);
         },
         message: "God Konstantinos' Time Reversal: Move back 10 spaces!",
-        gifSrc: "../assets/images/curse4.gif",
-        soundSrc: "../assets/sounds/curse4.mp3",
+        gifSrc: "./assets/images/curse4.gif",
+        soundSrc: "./assets/sounds/curse4.mp3",
       },
       {
         effect: (player, game) => {
           player.loseLives(1);
         },
         message: "Goddes Noemi's Poison Dart: Lose 1 life!",
-        gifSrc: "../assets/images/curse5.gif",
-        soundSrc: "../assets/sounds/curse5.mp3",
+        gifSrc: "./assets/images/curse5.gif",
+        soundSrc: "./assets/sounds/curse5.mp3",
       },
       {
         effect: (player, game) => {
@@ -205,16 +205,16 @@ class Board {
           player.moveTo(newPosition, this);
         },
         message: "Goddes Dani's Tripping Trap: Move back 3 spaces!",
-        gifSrc: "../assets/images/curse6.gif",
-        soundSrc: "../assets/sounds/curse6.mp3",
+        gifSrc: "./assets/images/curse6.gif",
+        soundSrc: "./assets/sounds/curse6.mp3",
       },
       {
         effect: (player, game) => {
           player.loseLives(1);
         },
         message: "Goddes Thathsara's Evil Spell: Lose 1 life!",
-        gifSrc: "../assets/images/curse7.gif",
-        soundSrc: "../assets/sounds/curse7.mp3",
+        gifSrc: "./assets/images/curse7.gif",
+        soundSrc: "./assets/sounds/curse7.mp3",
       },
       {
         effect: (player, game) => {
@@ -223,16 +223,16 @@ class Board {
           player.moveTo(newPosition, this);
         },
         message: "God Felix's Slippery Slope: Move back 7 spaces!",
-        gifSrc: "../assets/images/curse8.gif",
-        soundSrc: "../assets/sounds/curse8.mp3",
+        gifSrc: "./assets/images/curse8.gif",
+        soundSrc: "./assets/sounds/curse8.mp3",
       },
       {
         effect: (player, game) => {
           player.loseLives(2);
         },
         message: "God Alex's Dragon's Breath: Lose 2 lives!",
-        gifSrc: "../assets/images/curse9.gif",
-        soundSrc: "../assets/sounds/curse9.mp3",
+        gifSrc: "./assets/images/curse9.gif",
+        soundSrc: "./assets/sounds/curse9.mp3",
       },
       {
         effect: (player, game) => {
@@ -241,16 +241,16 @@ class Board {
           player.moveTo(newPosition, this);
         },
         message: "Overlord D's Cursed Teleport: Move back 15 spaces!",
-        gifSrc: "../assets/images/curse10.gif",
-        soundSrc: "../assets/sounds/curse10.mp3",
+        gifSrc: "./assets/images/curse10.gif",
+        soundSrc: "./assets/sounds/curse10.mp3",
       },
       {
         effect: (player, game) => {
           player.loseLives(1);
         },
         message: "Overlord J's Dark Magic: Lose 1 life!",
-        gifSrc: "../assets/images/curse11.gif",
-        soundSrc: "../assets/sounds/curse11.mp3",
+        gifSrc: "./assets/images/curse11.gif",
+        soundSrc: "./assets/sounds/curse11.mp3",
       },
       {
         effect: (player, game) => {
@@ -258,8 +258,8 @@ class Board {
           player.moveTo(1, this);
         },
         message: "Kay's Ultimate Curse: Back to start!",
-        gifSrc: "../assets/images/curse12.gif",
-        soundSrc: "../assets/sounds/curse12.mp3",
+        gifSrc: "./assets/images/curse12.gif",
+        soundSrc: "./assets/sounds/curse12.mp3",
       },
     ];
 

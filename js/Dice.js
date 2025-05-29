@@ -2,7 +2,7 @@ class Dice {
   constructor() {
     this.value = 1; // create value 2 and total value later
     this.element = document.getElementById("dice"); //create a second dice later
-    this.rollSound = new Audio("../assets/sounds/dice-roll.mp3");
+    this.rollSound = new Audio("./assets/sounds/dice-roll.mp3");
   }
 
   roll() {

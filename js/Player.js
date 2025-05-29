@@ -11,7 +11,7 @@ class Player {
     const playerElement = document.createElement("img");
     playerElement.className = "player-token";
     playerElement.id = `player-${this.id}`;
-    playerElement.src = "../assets/images/player1.png";
+    playerElement.src = "./assets/images/player1.png";
     this.element = playerElement;
     return playerElement;
   }

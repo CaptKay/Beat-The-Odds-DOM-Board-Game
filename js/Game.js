@@ -4,9 +4,9 @@ class Game {
     this.player = new Player();
     this.dice = new Dice();
     this.isGameActive = false;
-    this.gameIntroSound = new Audio("../assets/sounds/game-intro.mp3");
-    this.winSound = new Audio("../assets/sounds/win.mp3");
-    this.gameOverSound = new Audio("../assets/sounds/game-over.mp3");
+    this.gameIntroSound = new Audio("./assets/sounds/game-intro.mp3");
+    this.winSound = new Audio("./assets/sounds/win.mp3");
+    this.gameOverSound = new Audio("./assets/sounds/game-over.mp3");
 
     //DOM Elements
     this.startScreen = document.getElementById("start-screen");
