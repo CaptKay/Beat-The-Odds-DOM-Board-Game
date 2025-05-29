@@ -96,6 +96,11 @@ body {
     grid-template-rows: repeat(10, 1fr);
     border: 3px solid #333;
     background-color: #f8f1e5;
+    box-shadow: -2px 22px 76px -10px rgba(0,0,0,0.4);
+-webkit-box-shadow: -2px 22px 76px -10px rgba(0,0,0,0.4);
+-moz-box-shadow: -2px 22px 76px -10px rgba(0,0,0,0.4);
+
+transform: scale(0.99) skew(12deg) translate(-34px,-8px);
 }
 
 .cell {
