@@ -48,7 +48,7 @@ class Board {
           player.moveTo(newPosition, this);
         },
         message: "God Tim's Swift Wind: Move forward 5 spaces!",
-        gifSrc: "./assets/images/blessin3.gif",
+        gifSrc: "./assets/images/blessing3.gif",
         soundSrc: "./assets/sounds/blessing3.mp3",
       },
       {
