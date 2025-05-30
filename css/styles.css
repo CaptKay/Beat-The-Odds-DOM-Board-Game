@@ -113,8 +113,9 @@ body {
 .player-token {
   width: 40px;
   height: 40px;
+  padding: 1px;
   border-radius: 50%;
-  /* background-color: #ff6b6b; */
+  background-color: #f86370;
   position: absolute;
   z-index: 2;
 }
@@ -189,4 +190,17 @@ button:hover {
   font-size: 1.2rem;
   font-weight: bold;
   min-height: 30px;
+}
+
+@media (max-width: 768px) {
+  #game-board {
+    max-width: 400px;
+    max-height: 450px;
+    transform: none;
+  }
+
+  .player-token {
+    width: 30px;
+    height: 30px;
+  }
 }
