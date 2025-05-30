@@ -1,5 +1,7 @@
 # Beat The Odds Board Game
 
+![](./assets/images/beatTheOddsImage.png)
+
 A magical board game inspired by Snakes and Ladders, where players navigate through a mystical journey filled with divine blessings and dark curses.
 
 ## About the Game
